@@ -1,0 +1,40 @@
+Essa pasta (aula 05) foi criada especificamente para a entrega da lista de exericicio da disciplina, conforme plano de ensino.
+--------
+avaliação por:
+aplicação correta dos niveis de visibilidade
+impletementar getters e setters
+validação dos dados
+organização
+justificativa as escolhas por meio de comentarios
+---------
+1. Crie uma classe Produto com os atributos nome e preco. Ambos devem ser públicos.
+Instancie um objeto e exiba seus valores.
+
+2. Modifique a classe Produto tornando preco privado. Crie métodos getPreco e
+setPreco para manipular o valor.
+
+3. Crie uma classe ContaBancaria com atributo privado saldo. Implemente métodos
+para depositar e sacar.
+
+4. Crie uma classe Funcionario com atributo protegido salario. Crie uma subclasse
+Gerente que permita acessar e modificar este valor.
+
+5. Implemente uma classe Usuario com atributo privado senha. Crie método verificarSenha($senhaDigitada)
+que retorna verdadeiro/falso.
+
+6. Crie uma classe Config com atributo protegido parametros. Crie subclasses que
+leiam e modifiquem esses parâmetros.
+
+7. Desenvolva uma classe Pedido com atributo privado itens (array). Adicione mé-
+todos para inserir e listar itens.
+
+8. Crie uma classe Cliente com nome público, CPF protegido e telefone privado. Teste
+acessos dentro e fora da classe.
+
+9. Refatore a classe ContaBancaria para permitir saque apenas se o saldo for suficiente.
+
+10. Projete uma classe ConexaoBD com método privado conectar(). Exponha apenas
+um método público getConexao() para retornar a conexão.
+
+------
+cada arquivo tem o exericicio correspondente a sua numeração

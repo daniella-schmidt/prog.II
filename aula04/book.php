@@ -59,7 +59,6 @@ class Book {
     }
 }
 
-// Criando livros
 $book1 = new Book("Dom Casmurro", "Machado de Assis", 1899, 300);
 $book2 = new Book("O Guarani", "José de Alencar", 1857, 250, false);
 
