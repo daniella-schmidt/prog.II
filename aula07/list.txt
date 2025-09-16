@@ -1,0 +1,27 @@
+Essa pasta (aula 07) foi criada especificamente para a entrega da lista de exericicio da disciplina, conforme plano de ensino.
+
+--------------------------------------------------------------------
+
+1. Crie uma classe Animal com um método falar(). Crie as subclasses Cachorro e
+Gato que sobrescrevem este método exibindo sons diferentes.
+2. Implemente uma classe Calculadora que simule sobrecarga de métodos com somar()
+recebendo 2 e 3 parâmetros, utilizando parâmetros opcionais.
+3. Modele uma hierarquia de classes Pagamento com subclasses Cartao, Pix e Boleto.
+Cada uma deve sobrescrever o método processar().
+4. Crie uma classe Notificacao com subclasses Email, SMS e Push. Todas devem
+sobrescrever o método enviar().
+5. Implemente uma classe FiguraGeometrica com método calcularArea(). Crie
+subclasses Quadrado, Circulo e Retangulo que sobrescrevem este método.
+6. Desenvolva uma classe Relatorio que use o método mágico __call() para simular
+sobrecarga de métodos com nomes iguais, mas parâmetros diferentes.
+7. Crie uma classe Veiculo com método mover(). Implemente subclasses Carro,
+Bicicleta e Avião com comportamentos distintos.
+8. Modele uma classe Impressora com método imprimir(). Crie subclasses PDF,
+Texto e Imagem que sobrescrevem esse método.
+9. Implemente uma classe Mensagem que utiliza polimorfismo para formatar texto em
+Maiúsculo, Minúsculo e Capitalizado.
+10. Projete um sistema de Transporte com classes Ônibus, Metrô e Táxi, todas so-
+brescrevendo o método calcularTarifa().
+
+--------------------------------------------------------------------
+cada arquivo tem o exericicio correspondente a sua numeração
